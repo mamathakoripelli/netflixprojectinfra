@@ -7,7 +7,7 @@ count = 4
 ami = "ami-0953476d60561c955"
 instance_type = "t2.medium"
 key_name = "mkp"
-vpc_security_groups_ids = ["sg-01150710c0d4fc0d9"]
+vpc_security_group_ids = ["sg-01150710c0d4fc0d9"]
 tags = {
 Name = var.instance_names[count.index]
 }
